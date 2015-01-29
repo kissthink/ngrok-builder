@@ -41,5 +41,5 @@ If you use a self-signed certificate, please set `trust_host_root_certs: false`
 
 Then you can start client tunneling using:
 ```
-./ngrok -config=ngrok.conf -proto 2375
+./ngrok -config=ngrok.conf -proto tcp 2375
 ```
